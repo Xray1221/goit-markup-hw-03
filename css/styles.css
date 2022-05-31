@@ -1,0 +1,142 @@
+:root {
+    --active-color: #2196F3;
+    --white-color: #FFFFFF;
+    --general-text-color: #212121;
+    --grey-color: #757575;
+  }
+body { 
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--general-text-color);
+}
+/* Header */
+.logo {   
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.2;
+    font-family: 'Raleway', sans-serif; 
+    color: var(--active-color);
+    text-decoration: none;
+}
+.logo-web {
+    color: var(--general-text-color);
+}
+.logo-web-footer {
+    color: var(--white-color);
+}
+.list {
+    list-style: none;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--general-text-color);
+    text-decoration: none;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--active-color);
+}
+.contact-link {
+    color: var(--grey-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    text-decoration: none;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--active-color);
+}
+/* Main */
+.title-service {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.35;
+    color: var(--white-color);
+    background-color: #2F303A;
+    text-transform: uppercase;
+}
+.btn-service {
+    color: var(--white-color);
+    background-color: var(--active-color);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.875;   
+}
+.btn-filter {
+    color: var(--general-text-color);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.625;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+    color: var(--white-color);
+    background-color: var(--active-color);
+}
+.title-quaility {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    color: var(--general-text-color);
+    text-transform: uppercase;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--general-text-color);
+}
+.portfolio-category {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--grey-color);
+}
+.quaility-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--grey-color);
+}
+.box-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+    color: var(--general-text-color);
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.15;
+    color: var(--general-text-color);
+}
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--general-text-color);
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--grey-color);
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    color: var(--white-color);
+}
